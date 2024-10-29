@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #cfdbd5;
+}
+
+header {
+  background-color: #4a4857;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.summary-card {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 100%;
+  margin: 20px 0;
+  border-radius: 5px;
+  border: 1px solid #74416e;
+}
+
+.weather-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.weather-card {
+  background-color:cfdbd5;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  width: 200px;
+  box-shadow: 0 0 10px rgb(193, 202, 193);
+}
+
+h1{
+  font-family: "Anton", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 150px;
+}
+nav{
+  padding: 30px;
+  font-size: 20px;
+  text-decoration:none;
+}
+
+.Description{
+  font-size: 20px;
+  font-weight: 400;
+  padding: 40px;
+  margin-left: 15vh;
+  margin-right: 15vh;
+}
